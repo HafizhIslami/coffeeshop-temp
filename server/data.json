@@ -1,0 +1,88 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@mail.com",
+      "password": "qwerty123",
+      "role": "Admin",
+      "phoneNumber": "080808080808"
+    }
+  ],
+  "Categories": [
+    {
+      "id": 1,
+      "name": "Appetizer"
+    },
+    {
+      "id": 2,
+      "name": "Sashimi"
+    },
+    {
+      "id": 3,
+      "name": "Gunkan"
+    },
+    {
+      "id": 4,
+      "name": "Makimono"
+    },
+    {
+      "id": 5,
+      "name": "Nigiri"
+    },
+    {
+      "id": 6,
+      "name": "Rice & Noodle"
+    },
+    {
+      "id": 7,
+      "name": "Bento"
+    },
+    {
+      "id": 8,
+      "name": "Drink"
+    }
+  ],
+  "Items": [
+    {
+      "id": 1,
+      "name": "Baby Octopus",
+      "description": "",
+      "price": 10000,
+      "imgUrl": "https://genkisushi.co.id/media/2020/06/baby-octopus.jpg",
+      "authorId": 1,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Salmon Belly Sashimi",
+      "description": "Bowl Honey Garlic Fish Rice",
+      "price": 30000,
+      "imgUrl": "https://genkisushi.co.id/media/2020/06/salmon-belly-sashimi.jpg",
+      "authorId": 1,
+      "categoryId": 2
+    }
+  ],
+  "Ingredients": [
+    {
+      "id": 1,
+      "itemId": 1,
+      "name": "Baby Octopus"
+    },
+    {
+      "id": 2,
+      "itemId": 1,
+      "name": "Sesame"
+    },
+    {
+      "id": 3,
+      "itemId": 2,
+      "name": "Salmon"
+    },
+    {
+      "id": 4,
+      "itemId": 2,
+      "name": "Lemon"
+    }
+  ]
+}
